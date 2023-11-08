@@ -24,5 +24,19 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 39
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ********* Operations **********
+
+let value = 10
+let negvalue = -value
+
+// console.log(negvalue);
+
+let str1 = "Saif"
+let str2 = " Sabrina"
+
+let str3 = str1 + str2 
+
+console.log(str3);
