@@ -5,3 +5,13 @@ console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
 
+// *********** Datatypes Summary ********** //
+
+// Primitive
+// 7 types are: String, Boolean, Null, Number, Undefined, Symbol, BigInt
+
+
+
+
+// Reference 
+// Array, Objects, Functions
