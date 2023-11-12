@@ -19,4 +19,11 @@ const NewString = gameName.substring(0, 2) // we can't use any Negative value he
 // console.log(typeof NewString);
 
 const anotherString = gameName.slice(-16, 2)
-console.log(anotherString);
+// console.log(anotherString);
+
+const newStringOne = "     Saif     "
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+
+const url = "https://saif.com/saif%30meizan"
+console.log(url.replace('%30', '-'))
