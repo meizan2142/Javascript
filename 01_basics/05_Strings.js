@@ -26,4 +26,17 @@ const newStringOne = "     Saif     "
 // console.log(newStringOne.trim());
 
 const url = "https://saif.com/saif%30meizan"
-console.log(url.replace('%30', '-'))
+// console.log(url.replace('%30', '-'))
+
+
+
+
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// Expected output: true
+
+console.log(pets.includes('at'));
+// Expected output: false
+
