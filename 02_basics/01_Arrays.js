@@ -12,6 +12,9 @@ const fruits = ["Banana", "Apple", "Pineapple"]
 const marvel_heros = ["IronMan", "Spiderman", "Thor", "CaptainAmerica"]
 const dc_heros = ["Superman", "Flash", "Batman"]
 
-const allHeros = marvel_heros.concat(dc_heros)
-console.log(allHeros);
+// const allHeros = marvel_heros.concat(dc_heros)
+// console.log(allHeros);
+
+// const all_new_heros = [...marvel_heros, ...dc_heros]
+// console.log(all_new_heros);  // spread=concat
 
