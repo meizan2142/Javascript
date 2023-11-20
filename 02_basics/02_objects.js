@@ -23,13 +23,21 @@ Object. freeze(jsUser)
 
 
 jsUser.greeting = function(){
-    console.log("Hello Js User");
+    // console.log("Hello Js User");
 }
 
 jsUser.greetingTwo = function(){
-    console.log(`Hello Js user, ${this.name}`);
+    // console.log(`Hello Js user, ${this.name}`);
 }
 
-console.log(jsUser.greeting);
-console.log(jsUser.greetingTwo);
+// console.log(jsUser.greeting);
+// console.log(jsUser.greetingTwo);
 
+
+const tinderUser = {}
+
+tinderUser.id = "124abd"
+tinderUser.name = "Sabrina"
+tinderUser.isLoggedIn = false
+
+console.log(tinderUser);
