@@ -40,4 +40,27 @@ tinderUser.id = "124abd"
 tinderUser.name = "Sabrina"
 tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
+
+
+const regularUser = {
+    email: "aksha@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "Sabrina",
+            lastname: "Aksha"
+        }
+    }
+}
+
+// console.log(regularUser.fullname.userfullname.lastname);
+
+
+const obj1 = {1: "Saif", 2: "Sabrina"}
+const obj2 = {3: "Akhter", 4: "Sultan"}
+const obj3 = {5: "Meizan", 6: "Aksha"}
+
+const obj4 = {...obj1, ...obj2, ...obj3}  // to combined a lots of object you can use this syntax.
+// console.log(obj4);
+
+
